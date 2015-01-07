@@ -1,0 +1,362 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Asul);
+
+/*============================
+BASE
+============================*/
+body{
+	color:#666;
+	background:#fff url(../img/bg_r.jpg) 100% 0 repeat-y;
+}
+
+/*���X�g�^�O�̒��̉摜�̗]�����N���A*/
+li img{
+	font-size:0;
+	line-height:0;
+	vertical-align:top;
+}
+
+
+/*============================
+LAYOUT
+============================*/
+div#wrapper{
+	background:url(../img/bg_l.jpg) 0 0 repeat-y;
+	min-height:800px;
+	height:auto;
+	margin:0;
+}
+div#container{
+	width:900px;
+	margin:0 auto;
+}
+
+div.outline{
+	border:1px solid #6698ff;
+	padding:1px;
+	background:#fff;
+}
+
+div#header{
+	height:120px;
+	padding:20px 0 10px;
+
+}
+
+div#footer{
+
+}
+
+.fL{float:left}
+.fR{float:right;}
+
+div#clear{
+	clear:both;
+	margin:0;
+	padding:0;
+	height:20px;
+}
+
+/*============================
+HEADER
+============================*/
+h1{
+	float:left;
+	width:440px;}
+
+ul#navi{
+	float:right;
+	width:415px;
+	margin-top:70px;}
+
+ul#navi li{float:left;}
+
+
+/*============================
+TOPIX / ABOUT
+============================*/
+div.size_t{width:496px;}
+
+div.tx{
+	width:494px;
+	border:1px solid #6698ff;
+	background:#fff;
+	position: relative;
+}
+div.tx p img{
+	display:block;
+	z-index:1;
+	}
+
+/* 過去Topixバナー */
+a.topix_tag{
+	z-index:100;
+	text-indent:-9999px;
+	display:block;
+	background:url(../img/btn_topix.jpg) no-repeat 0 0;
+	width:185px;
+	height:27px;
+	position:absolute;
+	top:266px;
+	/*top:268px;*/
+	left:32px;
+	}
+
+div.tx a:hover{
+	background:url(../img/btn_topix_on.jpg) no-repeat 0 0;}
+
+h2 img{
+	margin-bottom:10px;
+	}
+
+/*----------------*/
+
+div.size_a{width:376px;}
+
+div.au{
+	width:374px;
+	border:1px solid #6698ff;
+	background:#fff;
+	position: relative;
+}
+
+div.au p img{
+	display:block;
+	z-index:1;
+	}
+
+div.au a{
+	z-index:100;
+	text-indent:-9999px;
+	display:block;
+	background:url(../img/btn_about.jpg) no-repeat 0 0;
+	width:249px;
+	height:27px;
+	position:absolute;
+	top:258px;
+	right:18%;
+	}
+
+div.au a:hover{
+	background:url(../img/btn_about_on.jpg) no-repeat 0 0;}
+
+/*============================
+JOIN BNR
+============================*/
+
+div.join{
+	width:894px;
+	border:1px solid #6698ff;
+	}
+
+/*============================
+DownLoad / NEWS
+============================*/
+
+div.size_dl_news{width:436px;
+height:296px;}
+
+div.dl,div.news{
+	width:434px;
+	height:294px;
+	border:1px solid #6698ff;
+	background:#fff;
+}
+div#newslist{
+	width:432px;
+	height:235px;
+	overflow:auto;}
+
+div.news dt{
+	float:left;
+	width:90px;
+	margin-left:20px;
+	text-align:left;
+	line-height:1.6;}
+
+div.news dd{
+	width:280px;
+	border-bottom:1px dotted #ccc;
+	padding:0 0 10px 120px;
+	margin-bottom:15px;
+	line-height:1.6;}
+
+div.news span.red{
+	color:#f00;}
+
+/*============================
+LINK
+============================*/
+
+img#banner{
+	border:1px solid #000;
+	box-shadow: 0px 0px 5px #000000;
+
+	}
+
+div.join table td{
+	height:86px;
+	}
+div.join table td a{
+	color:#666;
+	text-decoration:none;
+	opacity:1;
+	}
+
+div.join table td a:hover{
+	text-decoration:underline;
+	opacity:0.6;
+	}
+
+div.join table td p{
+	line-height:1.7;
+	font-weight:bold;
+}
+
+div.join table td#link_l{
+	padding-left:30px;
+}
+
+div.join table td#link_r{
+	padding-top:40px; padding-right:10px; text-align:right;
+	}
+
+
+/*============================
+FOOTER
+============================*/
+p.copyright{
+	text-align:right;
+	padding:10px 0;
+	}
+p.copyright a{
+	color:#666;
+	font-weight:bold;
+	text-decoration:none;}
+
+p.copyright a:hover{
+	text-decoration:underline;}
+
+
+/*//////////////////////////////////////////
+
+	ABOUT�y�[�W�@CSS
+
+//////////////////////////////////////////*/
+
+dl#member dd{margin-bottom:15px;}
+
+p#pagetop{text-align:right;}
+
+p#pagetop a{color:#999;font-weight:bold;text-decoration:none;}
+
+p#pagetop a:hover{color:#CCC;}
+
+/*//////////////////////////////////////////
+
+	GALLERY�y�[�W�@CSS
+
+//////////////////////////////////////////*/
+
+p#inlink{
+	text-align:center;}
+
+p#inlink a{
+	font-weight:bold;
+	text-decoration:none;
+	color:#496feb;}
+
+div.gallery h3{
+	text-align:center;}
+
+div.gallery dl{
+	width:280px;
+	}
+
+div.gallery dd.img_sumb{
+	width:270px;
+	height:75px;
+	padding:3px;
+	background:#fff;
+	border:1px solid #ccc;
+	}
+
+div.gallery dt.img_tl{
+	text-align:left;
+	padding:0 10px;
+	font-weight:bold;
+	margin:10px 0 3px;}
+
+div.gallery dd.img_day{
+	text-align:right;
+	padding:0 10px;}
+
+div.gallery dd.img_comment{
+	margin:4px 0;
+	width:265px;
+	padding:5px;}
+
+div.gallery ul#gallery_list{
+	width:900px;}
+
+div.gallery ul#gallery_list li{
+	float:left;
+	width:270px;
+	padding:14px;
+}
+
+p.pagetop_g{clear:both; text-align:right;}
+p.pagetop_g a{text-decoration:none;color:#666;}
+
+/*//////////////////////////////////////////
+
+	TOPIX�y�[�W�@CSS
+
+//////////////////////////////////////////*/
+
+p#ex_topix{
+	color:#333;
+	text-align:center;
+	margin:20px 0;
+	}
+
+dl#topix{}
+
+dl#topix dt{
+	color:#fff;
+	font-size:28px;
+	background:url(../img/title_topix_bar.jpg) no-repeat 0 0;
+	width:894px;
+	height:47px;
+	letter-spacing:2px;
+	text-shadow: 1px 1px 3px #000;
+	font-family: 'Asul', sans-serif;
+	padding:5px 0 0 15px;
+	}
+
+dl#topix dd{
+	margin-bottom:15px;
+	min-height:100px;}
+
+
+
+dl#topix dd td{
+	margin:10px;
+	padding:10px;
+	border:1px solid #6698ff;
+	}
+dl#topix dd td.no_border{
+	width:1px;
+	margin:0;
+	padding:0;
+	border:none;
+	}
+
+div.size_topix{width:890px;}
+
+/*dl#topix dd td div.in_line{
+
+	border:1px solid #6698ff;
+	padding:20px;
+	}
+*/
